@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import { FONT } from '../../styles';
+import {FONT} from '../../styles';
 
 export default function CategoryCard({
   title,

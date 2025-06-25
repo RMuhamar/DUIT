@@ -201,7 +201,7 @@ const styles = StyleSheet.create({
     borderRadius: 2,
     marginVertical: 2,
     transform: [{rotate: '150deg'}],
-    bottom:-12
+    bottom: -12,
   },
   bar: {
     width: 40,

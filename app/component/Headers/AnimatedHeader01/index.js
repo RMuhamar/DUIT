@@ -10,7 +10,7 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 import {BlurView} from '@react-native-community/blur';
 import LinearGradient from 'react-native-linear-gradient';
-import { COLOR, FONT } from '../../../styles';
+import {COLOR, FONT} from '../../../styles';
 
 export default function AnimatedHeader01({title, onBack, showHeader = true}) {
   const headerAnim = useRef(new Animated.Value(1)).current; // 1 = visible, 0 = hidden
@@ -72,7 +72,7 @@ export default function AnimatedHeader01({title, onBack, showHeader = true}) {
               <Text style={styles.title}>{title}</Text>
               <TouchableOpacity>
                 <Icon
-                  name="ellipsis-horizontal" 
+                  name="ellipsis-horizontal"
                   size={24}
                   color={COLOR.primaryColor}
                 />
