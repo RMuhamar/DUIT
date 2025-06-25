@@ -1,0 +1,18 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#6d9773",
+        "titleBar.border": "#ebe8e8",
+        "titleBar.inactiveBackground": "#6D9773",
+        "titleBar.activeForeground": "#ebe8e8",
+        "statusBar.background": "#6D9773",
+        "statusBar.debuggingBackground": "#7C21D7",
+        "statusBar.noFolderBackground": "#7C21D7",
+        "statussBar.prominentBackground": "#7C21D7",
+        "statusBar.foreground": "#ebe8e8",
+		"activityBar.activeBorder": "#6D9773",
+		"activityBarBadge.background": "#6D9773",
+
+
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
