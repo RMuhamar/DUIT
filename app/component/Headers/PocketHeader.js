@@ -72,7 +72,7 @@ export default function PocketHeader({title, onBack, showHeader = true}) {
               <Text style={styles.title}>{title}</Text>
               <TouchableOpacity>
                 <Icon
-                  name="ellipsis-horizontal"
+                  name="ellipsis-horizontal" 
                   size={24}
                   color={COLOR.primaryColor}
                 />
