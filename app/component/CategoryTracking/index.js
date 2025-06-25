@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import CategoryCard from './CategoryCard';
+import {View, Text, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { COLOR, FONT } from '../styles';
+import {COLOR, FONT} from '../../styles';
+import CategoryCard from '../CategoryCard';
 
-export default function CategoryTracking({ categories }) {
+export default function CategoryTracking({categories}) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tracking by categories</Text>

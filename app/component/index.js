@@ -8,10 +8,10 @@ export {default as ProfileHeader} from './Headers/ProfileHeader';
 export {default as ServiceHeader} from './Headers/ServiceHeader';
 export {default as TabSelector} from './TabSelector';
 export {default as TransfersGraph} from './TransfersGraph';
-export {default as PocketHeader} from './Headers/PocketHeader';
 export {default as PocketSummaryCard} from './PocketSummaryCard';
 export {default as CategoryTracking} from './CategoryTracking';
 export {default as CategoryCard} from './CategoryCard';
+export {default as AnimatedHeader01} from './Headers/AnimatedHeader01';
 
 
 

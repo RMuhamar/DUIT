@@ -1,17 +1,26 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { FONT } from '../styles';
+import {View, Text, StyleSheet} from 'react-native';
+import { FONT } from '../../styles';
 
-export default function CategoryCard({ title, value, icon, backgroundColor, textColor }) {
+export default function CategoryCard({
+  title,
+  value,
+  icon,
+  backgroundColor,
+  textColor,
+}) {
   return (
-    <View style={[styles.card, { backgroundColor: backgroundColor || '#232323' }]}> 
+    <View
+      style={[styles.card, {backgroundColor: backgroundColor || '#232323'}]}>
       <View style={styles.row}>
         <View>
-          <Text style={[styles.title, { color: textColor || '#fff' }]}>{title}</Text>
+          <Text style={[styles.title, {color: textColor || '#fff'}]}>
+            {title}
+          </Text>
         </View>
-         {icon && <View style={styles.icon}>{icon}</View>}
+        {icon && <View style={styles.icon}>{icon}</View>}
       </View>
-        <Text style={[styles.value, { color: textColor || '#fff' }]}>{value}</Text>
+      <Text style={[styles.value, {color: textColor || '#fff'}]}>{value}</Text>
     </View>
   );
 }

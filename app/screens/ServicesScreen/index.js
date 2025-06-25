@@ -2,9 +2,9 @@ import React, {useState, useRef, useEffect} from 'react';
 import {View, StyleSheet, Animated} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {
-  PocketHeader,
   PocketSummaryCard,
   CategoryTracking,
+  AnimatedHeader01,
 } from '../../component';
 
 export default function ServicesContent() {
@@ -108,7 +108,7 @@ export default function ServicesContent() {
 
   return (
     <View style={styles.container}>
-      <PocketHeader
+      <AnimatedHeader01
         title="Your Pocket"
         onBack={() => {}}
         showHeader={showHeader}

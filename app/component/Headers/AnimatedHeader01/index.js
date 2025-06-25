@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef} from 'react';
 import {
   View,
   Text,
@@ -8,11 +8,11 @@ import {
   Animated,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import {COLOR, FONT} from '../../styles';
 import {BlurView} from '@react-native-community/blur';
 import LinearGradient from 'react-native-linear-gradient';
+import { COLOR, FONT } from '../../../styles';
 
-export default function PocketHeader({title, onBack, showHeader = true}) {
+export default function AnimatedHeader01({title, onBack, showHeader = true}) {
   const headerAnim = useRef(new Animated.Value(1)).current; // 1 = visible, 0 = hidden
   const HEADER_HEIGHT = 60;
 
